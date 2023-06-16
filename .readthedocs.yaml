@@ -11,8 +11,8 @@ sphinx:
 python:
   # Install our python package before building the docs
   install:
-    path: .
-    method: pip
+    - method: pip
+      path: .
     
 formats:
   - pdf
