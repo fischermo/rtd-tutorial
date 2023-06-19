@@ -15,5 +15,6 @@ python:
       path: .
     
 formats:
+  # User can read the documentation offline
   - pdf
   - epub
